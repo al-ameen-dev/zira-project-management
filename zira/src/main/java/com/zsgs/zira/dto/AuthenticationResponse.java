@@ -1,4 +1,4 @@
-package com.alameen.jwtsecurity.dto;
+package com.zsgs.zira.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -11,6 +11,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AuthenticationResponse {
-
     private String token;
 }

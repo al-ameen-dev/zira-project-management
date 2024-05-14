@@ -1,4 +1,4 @@
-package com.alameen.jwtsecurity.controller;
+package com.zsgs.zira.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.access.prepost.PreAuthorize;

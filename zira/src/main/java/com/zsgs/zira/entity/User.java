@@ -1,4 +1,4 @@
-package com.alameen.jwtsecurity.entity;
+package com.zsgs.zira.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -17,7 +17,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-@Table(name = "_name")
+@Table(name = "Users")
 public class User implements UserDetails {
 
     @Id
@@ -34,7 +34,6 @@ public class User implements UserDetails {
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority(role.name()));
     }
-
     @Override
     public String getPassword() {
         return password;

@@ -1,6 +1,6 @@
-package com.alameen.jwtsecurity.config;
+package com.zsgs.zira.config;
 
-import com.alameen.jwtsecurity.repository.UserRespository;
+import com.zsgs.zira.repository.UserRespository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
