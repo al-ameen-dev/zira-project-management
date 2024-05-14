@@ -1,4 +1,4 @@
-package com.alameen.jwtsecurity.entity;
+package com.zsgs.zira.entity;
 
 public enum Role {
     USER,

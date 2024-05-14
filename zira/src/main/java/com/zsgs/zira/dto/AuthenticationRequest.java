@@ -1,4 +1,4 @@
-package com.alameen.jwtsecurity.dto;
+package com.zsgs.zira.dto;
 
 
 import lombok.AllArgsConstructor;

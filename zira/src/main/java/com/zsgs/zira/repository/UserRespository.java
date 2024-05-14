@@ -1,6 +1,6 @@
-package com.alameen.jwtsecurity.repository;
+package com.zsgs.zira.repository;
 
-import com.alameen.jwtsecurity.entity.User;
+import com.zsgs.zira.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
