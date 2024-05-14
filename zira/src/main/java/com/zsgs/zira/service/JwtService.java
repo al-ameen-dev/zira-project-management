@@ -1,4 +1,4 @@
-package com.zsgs.zira.service;
+package com.alameen.jwtsecurity.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

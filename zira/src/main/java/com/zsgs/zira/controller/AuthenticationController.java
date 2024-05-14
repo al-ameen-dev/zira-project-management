@@ -1,10 +1,10 @@
-package com.zsgs.zira.controller;
+package com.alameen.jwtsecurity.controller;
 
 
-import com.zsgs.zira.dto.AuthenticationRequest;
-import com.zsgs.zira.dto.AuthenticationResponse;
-import com.zsgs.zira.dto.RegisterRequest;
-import com.zsgs.zira.service.AuthenticationService;
+import com.alameen.jwtsecurity.dto.AuthenticationRequest;
+import com.alameen.jwtsecurity.dto.AuthenticationResponse;
+import com.alameen.jwtsecurity.dto.RegisterRequest;
+import com.alameen.jwtsecurity.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,17 +1,16 @@
-package com.zsgs.zira.service;
+package com.alameen.jwtsecurity.service;
 
-import com.zsgs.zira.dto.AuthenticationRequest;
-import com.zsgs.zira.dto.AuthenticationResponse;
-import com.zsgs.zira.dto.RegisterRequest;
-import com.zsgs.zira.entity.Role;
-import com.zsgs.zira.entity.User;
+import com.alameen.jwtsecurity.dto.AuthenticationRequest;
+import com.alameen.jwtsecurity.dto.AuthenticationResponse;
+import com.alameen.jwtsecurity.dto.RegisterRequest;
+import com.alameen.jwtsecurity.entity.Role;
+import com.alameen.jwtsecurity.entity.User;
+import com.alameen.jwtsecurity.repository.UserRespository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
-import com.zsgs.zira.repository.UserRespository;
 
 @Service
 @RequiredArgsConstructor
