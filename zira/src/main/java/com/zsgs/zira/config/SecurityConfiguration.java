@@ -1,5 +1,6 @@
 package com.zsgs.zira.config;
 
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -26,7 +27,7 @@ public class SecurityConfiguration {
                 .httpBasic(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth->
-                        auth.requestMatchers("/api/v1/auth/**").permitAll()
+                        auth.requestMatchers("/api/v1/register").permitAll()
                                 .anyRequest().authenticated()
                 ).sessionManagement(session->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
