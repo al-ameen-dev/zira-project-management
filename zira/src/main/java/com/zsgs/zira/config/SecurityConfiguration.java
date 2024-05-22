@@ -26,6 +26,7 @@ public class SecurityConfiguration {
         http
                 .httpBasic(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
+                .cors(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth->
                         auth.requestMatchers("/api/v1/auth/register").permitAll()
                                 .requestMatchers("/api/v1/auth/authenticate").permitAll()
